@@ -1,0 +1,113 @@
+/*Variables generales*/
+:root {
+  --color-fondo: #f6f5f5;
+  --color-letra: #383e56;
+  --color-botones: #f8bf8a;
+  --color-complementario: #349fbd;
+  --color-complementario2: #d3e0ea;
+  --color-complementario3: #f0f1fa;
+}
+body {
+  color: var(--color-letra);
+  font-family: "RocknRoll One", sans-serif;
+}
+#app__contenedor {
+  background-color: var(--color-fondo);
+  width: 550px;
+  height: 100vh;
+  padding: 5px;
+  border: 2px solid #383e56;
+}
+
+/*Componente Login*/
+#login__contenedor {
+  border-radius: 20px;
+  width: 100%;
+}
+#login__botonloguear {
+  color: var(--color-letra);
+  background-color: var(--color-botones);
+  border: none;
+  height: 30px;
+  width: 150px;
+  margin-top: 30px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+/*Componente Todoapp*/
+#todoapp__contenedor {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+#todoapp__header {
+  background-color: var(--color-complementario);
+  width: 100%;
+  height: 50px;
+  font-size: 10px;
+}
+#todoapp__botondesloguear {
+  background-color: var(--color-botones);
+  border: none;
+  height: 30px;
+  width: 60px;
+  margin-top: 10px;
+  font-size: 10px;
+  padding: 5px;
+}
+#todoapp__sectionlist {
+  padding: 10px;
+}
+#todoapp__contenedorbienvenida {
+  width: 100%;
+}
+.todoapp__textosaludo {
+  margin-top: 15px;
+}
+#todoapp__textoheader {
+  margin-top: 10px;
+  font-size: 18px;
+}
+#todoapp__fotosaludo {
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline;
+}
+#todoapp__sectionform {
+  background-color: var(--color-complementario2);
+}
+#todoapp__contenedorform {
+  padding: 20px;
+}
+#todoapp__inputform {
+  border: none;
+  margin-right: 20px;
+  width: 200px;
+}
+#todoapp__inputsubmit {
+  font-size: 14px;
+  background-color: var(--color-botones);
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+}
+
+/*Componente Itemtodo*/
+#itemtodo__fila {
+  background-color: var(--color-complementario3);
+}
+.itemtodo__texto {
+  margin-top: 10px;
+}
+.itemtodo__boton {
+  color: var(--color-botones);
+  padding: 5px;
+  height: 80%;
+  font-size: 1.2rem;
+}
+.completa {
+  color: #9ede73;
+}
