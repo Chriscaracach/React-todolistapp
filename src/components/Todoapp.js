@@ -20,12 +20,17 @@ const Todoapp = ({ user }) => {
 
   //Función para agregar la nueva tarea a la base de datos
   const nuevaTarea = (e) => {
-    e.preventDefault();
-    Ref.add({
-      texto: tareas,
-      completa: false,
-      horaCreacion: firebase.firestore.FieldValue.serverTimestamp(),
-    });
+    if (tareas === " ") {
+      alert("Entrada no válida");
+    } else {
+      e.preventDefault();
+      Ref.add({
+        texto: tareas,
+        completa: false,
+        horaCreacion: firebase.firestore.FieldValue.serverTimestamp(),
+      });
+      setTareas("");
+    }
   };
 
   return (
