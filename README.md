@@ -1,4 +1,3 @@
-Éste repositorio fue subido por Christian Caracach (12/4/21)
 # React-todo
 
 En este repositorio se encuentra una App simple para organizar tareas (To-do list app).
