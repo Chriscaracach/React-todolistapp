@@ -5,13 +5,12 @@ import "firebase/auth";
 
 //Inicializamos la app con los tokens provistos desde Firebase
 firebase.initializeApp({
-  apiKey: "AIzaSyARDf7LkrXGiBTxYW9qvoA4BQzQIUJIgCE",
-  authDomain: "todo-chriscaracach.firebaseapp.com",
-  databaseURL: "https://todo-chriscaracach-default-rtdb.firebaseio.com",
-  projectId: "todo-chriscaracach",
-  storageBucket: "todo-chriscaracach.appspot.com",
-  messagingSenderId: "518436274309",
-  appId: "1:518436274309:web:abbf9ec5ae23dc26b169ec",
+  apiKey: "AIzaSyBGdL4znUJnxyl-wU286tttHvRWdA1caWw",
+  authDomain: "todolistccaracach.firebaseapp.com",
+  projectId: "todolistccaracach",
+  storageBucket: "todolistccaracach.appspot.com",
+  messagingSenderId: "354196307230",
+  appId: "1:354196307230:web:07d9034ba3a1801367dd0f",
 });
 
 //Exportamos métodos para hacer más fácil el trabajo en los componentes
