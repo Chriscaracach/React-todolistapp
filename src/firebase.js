@@ -4,8 +4,9 @@ import "firebase/firestore";
 import "firebase/auth";
 
 //Inicializamos la app con los tokens provistos desde Firebase
+//Ésta API está borrada porque tendría que ser privada. Se puede hacer con variables de entorno. Si la necesito, la tengo que buscar en la consola de Firebase.
 firebase.initializeApp({
-  apiKey: "AIzaSyBGdL4znUJnxyl-wU286tttHvRWdA1caWw",
+  apiKey: "api-key",
   authDomain: "todolistccaracach.firebaseapp.com",
   projectId: "todolistccaracach",
   storageBucket: "todolistccaracach.appspot.com",
