@@ -1,13 +1,28 @@
-# React-todo
+# React-todolist
 
-En este repositorio se encuentra una App simple para organizar tareas (To-do list app).
+This is a simple app to write down tasks to do.
 
-Se utilizó Javascript con la librería React para el diseño de las funcionalidades.
+I developed it as an initial project to understand React.
 
-Para el diseño visual se utilizó Bootstrap.
+In it you can see the use of Props, Hooks, State and several features of this library.
 
-Para el backend se utilizó Firebase (Firebase Auth, Firebase Firestore).
+First of all you will have to enter by authenticating with Google.
 
-Descripción: En ésta app, podemos acceder con nuestra cuenta de Google y cargar nuevas tareas para hacer. Cada tarea puede ser tildada como "completa" y también puede ser eliminada. Todos los datos (texto de la tarea, si está completa o no) son enviados a Firestore a una colección individual para cada usuario. De ésta manera, cada tarea y su estado actual son guardados y leídos cada vez que un usuario accede con su cuenta de Google.
+![Login](todoImg/login.png "Login")
 
-URL: https://todolistccaracach.web.app
+After entering you will see a field to enter the task you must perform, once loaded, it is shown at the bottom of the screen.
+
+![Tasks](todoImg/tasks.png "Tasks")
+
+Each task can be deleted and marked as completed.
+
+![Completed](todoImg/completed.png "Completed")
+
+## Technologies used :
+
+- HTML5
+- CSS (Bootstrap)
+- JS (React)
+- Firebase
+
+You can see this app deployed [HERE](https://todolistccaracach.web.app/)
